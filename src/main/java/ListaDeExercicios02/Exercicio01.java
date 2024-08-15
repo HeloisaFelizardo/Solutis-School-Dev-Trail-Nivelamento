@@ -1,4 +1,4 @@
-package ListaDeExercicios01;
+package ListaDeExercicios02;
 
 /*1. Qual a saída do seguinte programa:*/
 

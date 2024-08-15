@@ -1,4 +1,4 @@
-package ListaDeExercicios01;
+package ListaDeExercicios02;
 
 /*6. Imprima produto dos números de ímpares de 15 a 30, usando os tipos de dados int e float.*/
 

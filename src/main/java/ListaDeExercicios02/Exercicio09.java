@@ -1,4 +1,4 @@
-package ListaDeExercicios01;
+package ListaDeExercicios02;
 
 /*9. Escreva uma classe para calcular a área de um círculo, sabendo que a área é A = PI * r2,
 onde o raio (r) deve ser informado pelo usuário e o resultado terá que ser arredondado.

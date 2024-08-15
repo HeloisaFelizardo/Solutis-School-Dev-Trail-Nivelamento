@@ -1,4 +1,4 @@
-package ListaDeExercicios01;
+package ListaDeExercicios02;
 
 /*7. Imprima o resultado da divisão por 2 de todos os múltiplos de 3, entre 1 e 100, usando os tipos de dados int e double .*/
 

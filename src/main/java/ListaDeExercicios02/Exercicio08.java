@@ -1,4 +1,4 @@
-package ListaDeExercicios01;
+package ListaDeExercicios02;
 
 /* Criar uma classe Java que receba uma palavra (String) retorne uma mensagem caso a
 palavra fornecida seja uma palavra que pode ser lida da esquerda pra direita ou da

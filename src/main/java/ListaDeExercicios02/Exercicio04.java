@@ -1,4 +1,4 @@
-package ListaDeExercicios01;
+package ListaDeExercicios02;
 
 /*4. Pretende-se escrever um programa que leia do teclado uma distância
 expressa em milhas, converte-a para quilômetros e apresenta o resultado no
