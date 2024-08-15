@@ -17,13 +17,13 @@ public class Exercicio11 {
         Scanner entrada = new Scanner(System.in);
 
         System.out.println("Digite o código do produto: ");
-        String codigo = entrada.nextLine();
+        String cod = entrada.nextLine();
 
-        if (codigo.equals("001")) {
+        if (cod.equals("001")) {
             System.out.println("Parafuso");
-        } else if (codigo.equals("002")) {
+        } else if (cod.equals("002")) {
             System.out.println("Porca");
-        } else if (codigo.equals("003")) {
+        } else if (cod.equals("003")) {
             System.out.println("Prego");
         } else {
             System.out.println("Diversos");

@@ -12,11 +12,11 @@ public class Exercicio12 {
 
         for (int i = 1; i <= 100; i++) {
             if (i % 3 == 0) {
-                int resultadoInt = i / 2;
-                double resultadoDouble = (double) i / 2;
+                int resultInt = i / 2;
+                double resultDouble = (double) i / 2;
 
-                System.out.println("Resultado (int): "+ i + " / 2 = "  + resultadoInt);
-                System.out.println("Resultado (double): " + i + " / 2 = " + resultadoDouble);
+                System.out.println("Resultado (int): "+ i + " / 2 = "  + resultInt);
+                System.out.println("Resultado (double): " + i + " / 2 = " + resultDouble);
                 System.out.println();
             }
         }
