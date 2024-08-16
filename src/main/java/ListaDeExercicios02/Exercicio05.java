@@ -20,5 +20,7 @@ public class Exercicio05 {
         }else{
             System.out.println(diasDaSemana[numero - 1]);
         }
+
+        scan.close();
     }
 }

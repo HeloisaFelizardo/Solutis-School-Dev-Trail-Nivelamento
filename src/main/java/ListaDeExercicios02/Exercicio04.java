@@ -15,5 +15,7 @@ public class Exercicio04 {
 
         double km = milhas * 1.609;
         System.out.println("A distância em quilômetros é: " + km + " km");
+
+        scan.close();
     }
 }

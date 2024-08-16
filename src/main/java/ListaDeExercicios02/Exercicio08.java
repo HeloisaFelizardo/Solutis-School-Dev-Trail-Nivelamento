@@ -15,8 +15,12 @@ public class Exercicio08 {
         String palavra = scan.nextLine();
 
         palindromo(palavra);
+
+        scan.close();
     }
+
     public static void palindromo(String palavra) {
+        palavra = palavra.replaceAll("\\s+", "").toLowerCase();
         boolean ehPalindromo = true;
         int n = palavra.length();
 

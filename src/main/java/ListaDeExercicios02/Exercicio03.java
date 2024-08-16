@@ -14,6 +14,8 @@ public class Exercicio03 {
         int num = scan.nextInt();
 
         imprimirNumerosPrimos(num);
+
+        scan.close();
     }
 
     public static void imprimirNumerosPrimos(int num) {

@@ -15,6 +15,8 @@ public class Exercicio02 {
         int b = scan.nextInt();
 
         System.out.println("O maior número é: " + maior(a, b));
+
+        scan.close();
     }
     public static int maior(int a, int b){
         return Math.max(a, b);

@@ -18,5 +18,7 @@ public class Exercicio09 {
         long areaArredondado = Math.round(A);
 
         System.out.println("Área do círculo: " + areaArredondado);
+
+        scan.close();
     }
 }
