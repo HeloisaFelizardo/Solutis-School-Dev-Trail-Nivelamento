@@ -1,4 +1,4 @@
-package ListaDeExercicios02;
+package ListaDeExercicios01;
 
 /*12. Os motoristas se preocupam com a quilometragem obtida por seus automóveis.
 Um motorista monitorou vários tanques cheios de gasolina registrando a quilometragem dirigida e

@@ -1,5 +1,28 @@
-public class Monge {
+public class ExercicioAula {
     public static void main(String[] args) {
-        
+        int tamanhoTabuleiro = 8; // Tabuleiro 8x8
+        long[][] tabuleiro = new long[tamanhoTabuleiro][tamanhoTabuleiro];
+
+        long grao = 1; // Número inicial de grãos na primeira casa
+
+        // Preencher o tabuleiro com o número de grãos apropriado
+        for (int i = 0; i < tamanhoTabuleiro; i++) {
+            for (int j = 0; j < tamanhoTabuleiro; j++) {
+                tabuleiro[i][j] = grao;
+                System.out.print(tabuleiro[i][j] + " ");
+                grao *= 2; // Dobra o número de grãos para a próxima casa
+            }
+            System.out.println();
+        }
+
+        // Calcular o total de grãos
+        long soma = 0;
+        for (int i = 0; i < tamanhoTabuleiro; i++) {
+            for (int j = 0; j < tamanhoTabuleiro; j++) {
+                soma += tabuleiro[i][j];
+            }
+        }
+
+        System.out.println("Total de grãos: " + soma);
     }
 }

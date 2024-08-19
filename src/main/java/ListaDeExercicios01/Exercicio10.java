@@ -1,4 +1,4 @@
-package ListaDeExercicios02;
+package ListaDeExercicios01;
 
 /*10. Escreva uma classe que conte a quantidade de vogais, espaços em brancos e consoantes de uma cadeia de caracteres.
  */

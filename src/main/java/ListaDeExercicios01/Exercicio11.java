@@ -1,4 +1,4 @@
-package ListaDeExercicios02;
+package ListaDeExercicios01;
 
 /*11. Escreva um programa que tenha duas palavras como entrada, e a saída imprima as palavras em ordem alfabética
 (utilize o método compareTo da classe String). Informe também, qual das palavras tem o maior número de caracteres.
