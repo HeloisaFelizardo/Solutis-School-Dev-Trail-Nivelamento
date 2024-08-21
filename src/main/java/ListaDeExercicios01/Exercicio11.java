@@ -1,46 +1,32 @@
-package ListaDeExercicios01;
+package ListaDeExercicios0;
 
-/*11. Escreva um programa que tenha duas palavras como entrada, e a saída imprima as palavras em ordem alfabética
-(utilize o método compareTo da classe String). Informe também, qual das palavras tem o maior número de caracteres.
- */
+/* Utilize a estrutura if para fazer um programa que retorne o nome de um
+produto a partir do código do mesmo. Considere os seguintes códigos:
+
+001 ? Parafuso;
+002 ? Porca;
+003 ? Prego;
+
+Para qualquer outro código: XXX ? Diversos.
+*/
 
 import java.util.Scanner;
 
 public class Exercicio11 {
     public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
 
-        Scanner scan = new Scanner(System.in);
+        System.out.println("Digite o código do produto: ");
+        String cod = entrada.nextLine();
 
-        System.out.println("Digite a primeira palavra: ");
-        String str1 = scan.nextLine();
-
-        System.out.println("Digite a segunda palavra: ");
-        String str2 = scan.nextLine();
-
-        palavrasEmOrdemAlfabetica(str1, str2);
-
-        scan.close();
-    }
-
-    public static void palavrasEmOrdemAlfabetica(String a, String b) {
-
-        if (a.compareToIgnoreCase(b) < 0) {
-            System.out.println(a);
-            System.out.println(b);
-        } else if (a.compareToIgnoreCase(b) > 0) {
-            System.out.println(b);
-            System.out.println(a);
+        if (cod.equals("001")) {
+            System.out.println("Parafuso");
+        } else if (cod.equals("002")) {
+            System.out.println("Porca");
+        } else if (cod.equals("003")) {
+            System.out.println("Prego");
         } else {
-            System.out.println(a);
-            System.out.println(b);
-        }
-
-        if (a.length() > b.length()) {
-            System.out.printf("A palavra \"%s\" tem o maior número de caracteres.%n", a);
-        } else if (a.length() < b.length()) {
-            System.out.printf("A palavra \"%s\" tem o maior número de caracteres.%n", b);
-        } else {
-            System.out.println("Ambas as palavras têm o mesmo número de caracteres.");
+            System.out.println("Diversos");
         }
     }
 }

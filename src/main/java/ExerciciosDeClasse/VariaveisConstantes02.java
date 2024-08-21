@@ -1,4 +1,4 @@
-package ListaDeExercicios0;
+package ExerciciosDeClasse;
 
 /*No programa anterior, existe uma variável que não foi inicializada. Qual foi?
 

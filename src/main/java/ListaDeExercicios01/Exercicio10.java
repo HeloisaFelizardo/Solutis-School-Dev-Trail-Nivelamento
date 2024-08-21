@@ -1,41 +1,17 @@
-package ListaDeExercicios01;
+package ListaDeExercicios0;
 
-/*10. Escreva uma classe que conte a quantidade de vogais, espaços em brancos e consoantes de uma cadeia de caracteres.
- */
-
-import java.util.Scanner;
+/*
+Faça um programa com 3 variáveis do tipo inteiro (int) tal que a primeira tenha o valor de 6,
+a segunda o valor 4 e a terceira receba o valor da divisão da primeira pela segunda.
+Exiba o valor da terceira variável. Faça uma análise do resultado.
+*/
 
 public class Exercicio10 {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+        int a = 6;
+        int b = 4;
+        int c = a / b;
 
-        System.out.println("Digite uma cadeia de caracteres: ");
-        String frase = scan.nextLine();
-
-        cadeiaCaracteres(frase);
-
-        scan.close();
-    }
-    public static void cadeiaCaracteres(String frase) {
-        frase = frase.toLowerCase();
-        int qtdVogais = 0;
-        int qtdConsoantes = 0;
-        int qtdEspacoEmBranco = 0;
-
-        for (int i = 0; i < frase.length(); i++) {
-            char ch = frase.charAt(i);
-
-            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
-                qtdVogais++;
-            } else if (Character.isWhitespace(ch)) {
-                qtdEspacoEmBranco++;
-            } else if (Character.isLetter(ch)) {
-                qtdConsoantes++;
-            }
-        }
-
-        System.out.println("Quantidade de vogais: " + qtdVogais);
-        System.out.println("Quantidade de consoantes: " + qtdConsoantes);
-        System.out.println("Quantidade de espaços em branco: " + qtdEspacoEmBranco);
+        System.out.println("Valor de c: " + c);
     }
 }

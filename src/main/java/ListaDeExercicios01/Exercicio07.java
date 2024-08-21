@@ -1,14 +1,28 @@
-package ListaDeExercicios01;
+package ListaDeExercicios0;
 
-/*7. Imprima o resultado da divisão por 2 de todos os múltiplos de 3, entre 1 e 100, usando os tipos de dados int e double .*/
+/*
+* 7. Ler dois valores para as variáveis A e B, efetuar a troca dos valores de forma
+* que a variável A passe a possuir o valor da variável B e que a variável B
+* passe a possuir o valor da variável A. Apresentar os valores trocados.
+*
+* */
+
+import java.util.Scanner;
 
 public class Exercicio07 {
     public static void main(String[] args) {
-        for (int i = 1; i <= 100; i++) {
-            if (i % 3 == 0) {
-                System.out.printf("Resultado da divisão de %d por 2 (int): %d%n", i, i / 2);
-                System.out.printf("Resultado da divisão de %d por 2 (double): %.1f%n", i, (double) i / 2);
-            }
-        }
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Digite um valor para a variável A: ");
+        int a = scan.nextInt();
+        System.out.println("Digite um valor para a variável B: ");
+        int b = scan.nextInt();
+
+        int temp;
+        temp = a;
+        a = b;
+        b = temp;
+
+        System.out.println("Valor A: " + a);
+        System.out.println("Valor B: " + b);
     }
 }

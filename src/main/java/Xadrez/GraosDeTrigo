@@ -1,4 +1,6 @@
-public class ExercicioAula {
+package Xadrez;
+
+public class GraosDeTrigo {
     public static void main(String[] args) {
         int tamanhoTabuleiro = 8; // Tabuleiro 8x8
         long[][] tabuleiro = new long[tamanhoTabuleiro][tamanhoTabuleiro];
