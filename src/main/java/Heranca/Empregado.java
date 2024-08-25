@@ -43,9 +43,9 @@ public class Empregado extends Pessoa {
     @Override
     public String toString() {
         return super.toString() +
-                "\nCódigo do Setor: " + getCodigoSetor() +
-                "\nSalário Base: " + getSalarioBase() +
-                "\nImposto: " + getImposto() + "%" +
+                "\nCódigo do Setor: " + codigoSetor +
+                "\nSalário Base: " + salarioBase +
+                "\nImposto: " + imposto + "%" +
                 "\nSalário Líquido: " + calcularSalario();
     }
 }

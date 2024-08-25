@@ -1,4 +1,4 @@
-package HerancaEPolimorfismo;
+package HerancaEPolimorfismo.Zoologico;
 
 public class Animal {
     private String nome;
@@ -7,10 +7,6 @@ public class Animal {
     public Animal(String nome, int idade) {
         this.nome = nome;
         this.idade = idade;
-    }
-
-    public Animal(String nome) {
-        this.nome = nome;
     }
 
     public String getNome() {

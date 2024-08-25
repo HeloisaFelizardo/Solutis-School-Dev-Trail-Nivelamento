@@ -49,7 +49,7 @@ public class Pessoa {
 
     public String toString() {
         return "Nome: " + getNome() +
-                "\nEndereço: " + getEndereco() +
-                "\nTelefone: " + getTelefone();
+                "\nEndereço: " + endereco +
+                "\nTelefone: " + telefone;
     }
 }

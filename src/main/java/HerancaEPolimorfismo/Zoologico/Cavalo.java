@@ -1,4 +1,4 @@
-package HerancaEPolimorfismo;
+package HerancaEPolimorfismo.Zoologico;
 
 public class Cavalo extends Animal implements PoderCorrer{
     public Cavalo(String nome, int idade) {

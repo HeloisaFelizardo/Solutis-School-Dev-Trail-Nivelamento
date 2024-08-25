@@ -1,4 +1,4 @@
-package HerancaEPolimorfismo;
+package HerancaEPolimorfismo.Zoologico;
 
 public class Preguica extends Animal{
     public Preguica(String nome, int idade) {

@@ -1,7 +1,7 @@
-package HerancaEPolimorfismo;
+package HerancaEPolimorfismo.Zoologico;
 
 public class Zoologico {
-    private Animal [] animais;
+    final private Animal[] animais;
     private int count;
 
     public Zoologico() {

@@ -1,4 +1,4 @@
-package HerancaEPolimorfismo;
+package HerancaEPolimorfismo.Zoologico;
 
 public class Veterinario{
     public void examinar(Animal animal){

@@ -23,6 +23,6 @@ public class Administrador extends Empregado {
     @Override
     public String toString() {
         return super.toString() +
-                "\nAjuda de Custo: " + getAjudaDeCusto();
+                "\nAjuda de Custo: " + ajudaDeCusto;
     }
 }

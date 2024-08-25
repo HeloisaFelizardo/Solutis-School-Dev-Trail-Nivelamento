@@ -35,7 +35,7 @@ public class Vendedor extends Empregado{
     @Override
     public String toString() {
         return super.toString() +
-                "\nValor da Produção: " + getValorVendas() +
+                "\nValor da Produção: " + valorVendas +
                 "\nComissão: " + comissao + "%" +
                 "\nValor da Comissão: " + getComissao();
     }
