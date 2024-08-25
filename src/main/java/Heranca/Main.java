@@ -4,35 +4,29 @@ public class Main {
     public static void main(String[] args) {
 
         Pessoa pessoa1 = new Pessoa("Carla", "Rua das azaleias", "5464813841");
-        System.out.println("\nInformações da Pessoa:");
+        System.out.println("\nInformações da Pessoa 1:");
         System.out.println(pessoa1);
 
         Pessoa pessoa2 = new Pessoa("Alfredo", "561315613");
         pessoa2.setEndereco("Rua das Camélias");
-
-        System.out.println("\nInformações da Pessoa:");
+        System.out.println("\nInformações da Pessoa 2:");
         System.out.println(pessoa2);
 
         Pessoa pessoa3 = new Pessoa("Carlos");
-
         pessoa3.setEndereco("Rua C");
         pessoa3.setTelefone("123123123");
-
-        System.out.println("\nInformações da Pessoa:");
+        System.out.println("\nInformações da Pessoa 3:");
         System.out.println(pessoa3);
 
         Pessoa pessoa4 = new Pessoa();
-
         pessoa4.setNome("Rubens");
         pessoa4.setEndereco("Rua Onze");
         pessoa4.setTelefone("454638643");
-
-        System.out.println("\nInformações da Pessoa:");
+        System.out.println("\nInformações da Pessoa 4:");
         System.out.println(pessoa4);
 
-        Fornecedor fornecedor1 = new Fornecedor(10000.00, 7000.00);
-
-        fornecedor1.setNome("Eduardo");
+        Fornecedor fornecedor1 = new Fornecedor(pessoa2, 10000.00, 7000.00);
+        fornecedor1.setNome("Eduardo LTDA");
         fornecedor1.setEndereco("Rua Beta");
         fornecedor1.setTelefone("123123123");
         System.out.println("\nInformações do Fornecedor:");
@@ -46,7 +40,7 @@ public class Main {
 
         System.out.println();
 
-        Empregado empregado1 = new Empregado("João", "Rua A", "123456789", 101, 5000.00, 15.0);
+        Empregado empregado1 = new Empregado(pessoa1, 101, 5000.00, 15.0);
 
         System.out.println("Informações do Empregado:");
         System.out.println(empregado1);
@@ -60,7 +54,7 @@ public class Main {
 
         System.out.println();
 
-        Administrador admin1 = new Administrador("Ana", "Avenida Central", "123456789", 101, 5000.00, 15.0, 100.00);
+        Administrador admin1 = new Administrador(pessoa3, 101, 5000.00, 15.0, 100.00);
 
         System.out.println("Informações do Administrador:");
         System.out.println(admin1);
@@ -72,7 +66,7 @@ public class Main {
 
         System.out.println();
 
-        Operario operario1 = new Operario("Carlos", "Rua B", "987654321", 202, 3000.00, 10.0, 10000.00, 5.0);
+        Operario operario1 = new Operario(pessoa4, 202, 3000.00, 10.0, 10000.00, 5.0);
 
         System.out.println("Informações do Operário:");
         System.out.println(operario1);
@@ -85,7 +79,8 @@ public class Main {
 
         System.out.println();
 
-        Vendedor vendedor1 = new Vendedor("Maria", "Rua C", "123456789", 101, 2500.00, 12.0, 20000.00, 8.0);
+
+        Vendedor vendedor1 = new Vendedor(pessoa2, 101, 2500.00, 12.0, 20000.00, 8.0);
 
         System.out.println("Informações do Vendedor:");
         System.out.println(vendedor1);

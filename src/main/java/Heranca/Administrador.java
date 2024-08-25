@@ -3,8 +3,8 @@ package Heranca;
 public class Administrador extends Empregado {
     private double ajudaDeCusto;
 
-    public Administrador(String nome, String endereco, String telefone, int codigoSetor, double salarioBase, double imposto, double ajudaDeCusto) {
-        super(nome, endereco, telefone, codigoSetor, salarioBase, imposto);
+    public Administrador(Pessoa pessoa, int codigoSetor, double salarioBase, double imposto, double ajudaDeCusto) {
+        super(pessoa, codigoSetor, salarioBase, imposto);
         this.ajudaDeCusto = ajudaDeCusto;
     }
 

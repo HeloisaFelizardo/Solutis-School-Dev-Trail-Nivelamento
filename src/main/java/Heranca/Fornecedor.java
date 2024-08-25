@@ -4,8 +4,8 @@ public class Fornecedor extends Pessoa{
     private double valorCredito;
     private double valorDivida;
 
-    public Fornecedor(double valorCredito, double valorDivida) {
-        super();
+    public Fornecedor(Pessoa pessoa, double valorCredito, double valorDivida) {
+        super(pessoa.getNome(), pessoa.getTelefone());
         this.valorCredito = valorCredito;
         this.valorDivida = valorDivida;
     }

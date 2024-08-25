@@ -3,10 +3,10 @@ package Heranca;
 public class Empregado extends Pessoa {
     private int codigoSetor;
     private double salarioBase;
-    private double imposto; // Porcentagem do imposto sobre o salário base
+    private double imposto;
 
-    public Empregado(String nome, String endereco, String telefone, int codigoSetor, double salarioBase, double imposto) {
-        super(nome, endereco, telefone);
+    public Empregado(Pessoa pessoa, int codigoSetor, double salarioBase, double imposto) {
+        super(pessoa.getNome(), pessoa.getEndereco(), pessoa.getTelefone());
         this.codigoSetor = codigoSetor;
         this.salarioBase = salarioBase;
         this.imposto = imposto;
