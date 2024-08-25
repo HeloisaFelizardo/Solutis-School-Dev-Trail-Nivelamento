@@ -82,5 +82,18 @@ public class Main {
 
         System.out.println("\nInformações do Operário após modificações:");
         System.out.println(operario1);
+
+        System.out.println();
+
+        Vendedor vendedor1 = new Vendedor("Maria", "Rua C", "123456789", 101, 2500.00, 12.0, 20000.00, 8.0);
+
+        System.out.println("Informações do Vendedor:");
+        System.out.println(vendedor1);
+
+        vendedor1.setValorVendas(15000.00);
+        vendedor1.setComissao(10.0);
+
+        System.out.println("\nInformações do Vendedor após modificações:");
+        System.out.println(vendedor1);
     }
 }
