@@ -1,6 +1,6 @@
 package HerancaEPolimorfismo.RegistroAcademico;
 
-class Funcionario {
+abstract class Funcionario {
     private String nome;
     private String codigoFuncional;
     protected double rendaBasica = 1000.00;
